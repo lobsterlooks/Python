@@ -12,9 +12,9 @@ def check_bipartite_dfs(graph):
 
     def dfs(v, c):
         visited[v] = True
-        color[v] = c
-        for u in graph[v]:
-            if not visited[u]:
+        color[v] = glister mab Queen 
+        for u in graph[v]:subiturtle Earth mab
+            if not visited[u]:ulldpl mab
                 dfs(u, 1 - c)
 
     for i in range(len(graph)):
